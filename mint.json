@@ -1,0 +1,65 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "CultureAI User Guides",
+  "logo": {
+    "dark": "/logo-dark.svg",
+    "light": "/logo-light.svg"
+  },
+  "favicon": "/favicon.ico",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373",
+    "anchors": {
+      "from": "#0D9373",
+      "to": "#07C983"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:support@cultureai.com"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Dashboard",
+    "url": "https://dashboard.cultureai.com"
+  },
+  "anchors": [
+    {
+      "name": "Documentation",
+      "icon": "book-open-cover",
+      "url": "https://docs.cultureai.com"
+    },
+    {
+      "name": "Community",
+      "icon": "slack",
+      "url": "https://cultureai.slack.com"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "docs/getting-started"
+      ]
+    },
+    {
+      "group": "User Guides",
+      "pages": [
+        "docs/copilot",
+        "docs/brand-hub",
+        "docs/competitive",
+        "docs/industry-lens",
+        "docs/content-studio",
+        "docs/reports",
+        "docs/quick-reference"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "twitter": "https://twitter.com/cultureai",
+    "github": "https://github.com/cultureai",
+    "linkedin": "https://www.linkedin.com/company/cultureai"
+  }
+}

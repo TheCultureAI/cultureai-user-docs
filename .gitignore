@@ -1,0 +1,9 @@
+# Mintlify
+.mintlify/
+node_modules/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
