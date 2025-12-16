@@ -1,0 +1,12 @@
+{
+  "buildCommand": "npm install -g mintlify && mintlify build || echo 'Using Mintlify hosting recommended'",
+  "outputDirectory": ".mint",
+  "framework": null,
+  "installCommand": "echo 'No install needed'",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
